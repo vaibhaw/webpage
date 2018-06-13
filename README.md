@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Vaibhaw Singh Chandel
 
 ### Personal webpage
