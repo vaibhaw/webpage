@@ -19,6 +19,6 @@ deploy:
         token: $GIT_TOKEN
         basedir: public
         branch: master
-        repo: vaibhawchandel/vaibhawchandel.github.io
+        repo: vaibhaw/vaibhaw.github.io
 #        domain: vaibhawchandel.github.io/
 
