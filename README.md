@@ -1,4 +1,4 @@
 ## Vaibhaw Singh Chandel
 
-### Personal webpage
+### Homepage
 
