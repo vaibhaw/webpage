@@ -6,8 +6,8 @@ on:
       - main  # Set a branch to deploy
   pull_request:
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
 jobs:
   deploy:
@@ -33,7 +33,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: vaibhaw/vaibhaw.github.io
           publish_branch: main  # default: gh-pages
           publish_dir: ./public
